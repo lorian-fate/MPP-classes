@@ -1,5 +1,5 @@
 
-"""
+
 class Person:
     birthday = '00-00-0000'
     address = []
@@ -27,13 +27,17 @@ class Person:
 
     def __str__(self):
         return f"{self.name} {self.last_name} was born on {self.birthday}"
-"""
-""" 
+
+
 obj1 = Person('Kandjigar', 'the destroyer', 'M-010101_O')
 obj2 = Person('Drax', 'the destroyer', 'M-010102_O')
 obj3 = Person('Aargamon', 'the pacifist', 'M-010102_O')
-"""
 
+list__ = [obj1, obj2, obj3]
+lista = [i.__dict__['name'] : i.__dict__['last_name'] for i in list__]
+#for i in list__:
+#    print(i.__dict__['name'])
+print(lista)
 """
 dataBase = open('data.txt', 'wb')
 dataBase.write(obj1)
@@ -76,7 +80,8 @@ print(text.find('bro'))
 searh_ = re.search('chain', text)
 print(searh_)
 """
-l = [1,2,4,'op']
-b = 'op'
-if l.__contains__(b):...
+#l = [1,2,4,'op']
+#b = 'op'
+#if l.__contains__(b):...
 #print(dir(str))
+#repr(l)
