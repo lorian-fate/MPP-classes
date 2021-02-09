@@ -32,7 +32,7 @@ def cal_p():
 init_time = time()
 """
 v = []
-for i in range(1, 5000):
+for i in range(1, 50):
     x = cal(i)
     print(x)
     v.append(x)

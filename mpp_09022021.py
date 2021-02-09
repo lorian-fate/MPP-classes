@@ -1,0 +1,24 @@
+
+file_saved = open('new_file.txt', 'w')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
