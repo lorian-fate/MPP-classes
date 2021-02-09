@@ -30,11 +30,11 @@ def cal_p():
     return sum(v)
 
 init_time = time()
-"""
+
 v = []
-for i in range(1, 50):
+for i in range(1, 10000):
     x = cal(i)
-    print(x)
+    print(f'Estamos en: {x}')
     v.append(x)
 print(sum(v))
 """
@@ -43,7 +43,7 @@ num_hilo = 10
 for n_hilo in range(num_hilo):
     hilo = threading.Thread(name=n_hilo, target=cal_p)
     hilo.start()
-
+"""
 
 final_time = time()
 execution_time = final_time - init_time
