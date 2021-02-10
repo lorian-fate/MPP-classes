@@ -1,0 +1,237 @@
+COMANDO	DESCRIPCIÓN
+pwck:	    Verifica la integridad del archivo /etc/passwd
+adduser:	Ver useradd.
+dig:   	Utilería para consultas a servidores DNS.
+ss:    	Utileria similar a netstat pero más básica, listados rápidos de sockets establecidos.
+host:  	Utileria de consulta a sevidores DNS.
+kill:  	Termina procesos, mas correctamente envía señales a procesos.
+killall:	Termina procesos del mismo nombre o conjunto.
+tailf: 	Sinónimo del comando tail -f, permite ver en tiempo real la parte final de un archivo, es decir, conforme se va escribiendo, útil para monitorear bitácoras.
+exit:  	Sale del shell o terminal actual.
+testparm:	Revisa archivos smb.conf de samba por errores o correciones.
+resolveip:	Resuelve la ip del dominio o host que se indique.
+repquota:	Reporte de uso de cuotas de disco.
+cut:   	Remueve secciones (columnas principalmente) de cada línea de un archivo o archivos.
+popd:  	Remueve entradas (directorios utilizados) de la lista de directorios utilizados en la pila. (ver dirs y pushd)
+reboot:   	Reinicia el equipo.
+ipcalc:	Realiza cálculos simples sobre direcciones IP.
+vmstat:	Proporciona información sobre la memoria virtual.
+at:    	Programa trabajos, comandos, scripts para su ejecución posterior.
+rpm:   	Programa para la instalación/actualización/eliminación de paquetes, distros basadas en redhat.
+urpme: 	Programa del paquete urpmi para desinstalar o eliminar paquetes.
+ssh:   	Programa de login remoto seguro, programa del paquete openssh (protocolo de comunicación encriptado).
+quota:	    Permite ver el uso de cuotas por usuario.
+bzmore:	Permite ver el contenido de archivos comprimidos o empaquetados mediante bzip2.
+arp:   	Permite obtener/manipular la lista de direcciones MAC/Ip que el sistema ve.
+dirs:  	Permite mostrar, manipular la lista de directorios utilizados en la pila. (ver popd y pushd)
+zless: 	Permite mostrar el contenido de archivos comprimidos.
+zmore: 	Permite mostrar el contenido de archivos comprimidos.
+fping: 	Permite mandar paquetes ICMP (pings) a múltiples equipos en una red y determinar si están vivos o no.
+dump:  	Permite la creación de respaldos para los sistemas de archivos ext2 y ext3.
+gpasswd:	Permite la administración del archivo /etc/group
+sudo:  	Permite indicar que usuario ejecuta que comandos de root.
+tzselect:	Permite establecer una zona o huso horario.
+basename:	Permite eliminar la ruta del nombre de un archivo.
+ethtool:	Permite desplegar o cambiar valores de una tarjeta de red.
+curl:  	Permite descargar o transferir url's.
+expect:	Permite crear secuencias de diálogos y programar sesiones interactivas con otros comandos o scripts.
+chage: 	Permite cambiar la información (expiración, caducidad, etc) de la contraseña de un usuario.
+ifstat:	Pequeña utileria que permite observar estadísticas de las interfaces de red en tiempo real.
+more:  	Paginador similar a less pero menos funcioanal, ya que sale avanza y no retocede.
+sort:  	Ordena líneas de archivos y listas
+uniq:  	Omite o reporta sobre líneas repetidas en un archivo o listado.
+iwlist:	Obtiene información detallada de una tarjeta inalámbrica.
+mv:    	Mueve archivos y directorios.
+hwclock:	Muestra/Establece la fecha/hora del bios o hardware. (Fecha/Hora del sistema con date)
+date:  	Muestra/establece la fecha y hora actual.
+ifconfig:	Muestra/Configura las interfaces de red del sistema.
+route: 	Muestra/altera la tabla de ruteo IP.
+iptab: 	Muestra una tabla de direcciones IP de acuerdo al prefijo CIDR
+who:   	Muestra quien esta conectado al sistema.
+w: 	    Muestra quien esta conectado al sistema y que esta haciendo.
+uptime:	Muestra que tanto tiempo lleva prendido el equipo.
+set:   	Muestra o establece el entorno de variables para el usuario actuual.
+jobs:  	Muestra los trabajos del usuario en suspensión o en background.
+pstree:   	Muestra los procesos en forma de árbol.
+ps:    	Muestra los procesos del sistema o del usuario o ambos.
+top:   	Muestra los procesos del sistema de manera interactiva y continua.
+users: 	Muestra los nombres de usuario de todos los usuarios conectados actualmente al sistema.
+dmesg: 	Muestra los mensajes del arranque del sistema (boot).
+lpq:   	Muestra los documentos para imprimir en la cola de impresión.
+which: 	Muestra la ruta completa de un comando.
+tail:  	Muestra la parte final de un archivo.
+ddate: 	Muestra la fecha en formato del calendario Discordante.
+finger:	Muestra información sobre los usuarios del sistema.
+last:  	Muestra información de los últimos usuarios logueados.
+lastb: 	Muestra información de los últimos intentos fallidos de loguearse.
+modinfo:	Muestra información acerca de los módulos del kernel.
+whoami:	Muestra el usuario actual.
+df:    	Muestra el uso de espacio de discos duros o particiones.
+du:    	Muestra el uso de espacio de archivos y directorios.
+id:    	Muestra el UID (User ID) y GID (Group ID) del usuario
+runlevel:	Muestra el nivel de ejecución actual y anterior del sistema.
+man:   	Muestra el manual del comando indicado.
+history:	Muestra el historial de comandos del usuario.
+lsmod: 	Muestra el estatus de los módulos en el kernel.
+free:  	Muestra el espacio usado y libre de memoria RAM y Swap.
+less:  	Muestra el contenido de un archivo, permite búsquedas y movimento hacía atrás y adelante.
+cat:   	Muestra el contenido de archivos y concatena archivos.
+blkid: 	Muestra atributos de dispositivos de bloque (discos, usb, etc.) tales como LABEL y UUID, entre otros.
+lsof:  	Muestra archivos abiertos de un programa en ejecucción, o de un usuario, proceso, etc.
+mount: 	Monta dispositvos de almacenamiento en particiones indicadas.
+groupmod:	Modifica un grupo en el sistema.
+usermod:  	Modifica información de usuarios.
+xkill: 	Mata o termina a un cliente X, es decir, a un programa gráfico.
+exportfs:	Mantiene una lista de sistemas de archivos del tipo NFS que han sido exportados.
+mc:    	Manejador de archvivos con soporte de mouse en modo de texto, no todas las distro lo tienen.
+wall:  	Manda un mensaje a todas las terminales.
+ping:  	Manda un echo_request (solicitud de eco) a un equipo en al red.
+pkill: 	Manda señales a procesos basado en sus atributos.
+whereis:	Localiza el binario, fuentes y/o librerias, y documentación de un comado.
+fc:    	Lista, edita y reejecuta comandos previamente ejecutados.
+atq:   	Lista los trabajos programados pendientes de ejecutar por el comando at.
+lsusb: 	Lista los dispositivos usb del sistema.
+lspci: 	Lista los dispositivos pci del sistema.
+findsmb:	Lista información sobre equipos que respondan a paquetes SMB. Lista una red Windows. (Parte del paquete Samba)
+dmidecode:	Lista hardware del equipo directamente del BIOS. (también: lshw)
+lshw:  	Lista hardware del equipo directamente del BIOS. (también: dmidecode)
+ls:    	Lista archivos y directorios.
+clear: 	Limpia la terminal.
+cleanlinks:	Limpia enlaces simbólicos que no tengan relación y también remueve directorios vacios.
+rev	:       Invierte las líneas de un archivo.
+insmod:   	Inserta módulos en el kernel.
+startx:	Inicia una sesión X.
+biosdecode:	Información sobre el BIOS.
+locale: 	Información específica sobre las variables de entorno locales.
+partprobe:	Indica al sistema operativo de los cambios indicados en /etc/fstab
+locate: 	Indexa y busca archivos. Mas seguro utilizar slocate.
+echo:   	Imprime una línea de texto, variables, o contenido a un archivo.
+yes:    	Imprime una cadena repetidamente hasta que sea terminado o matado el comando.
+fortune:	Imprime un adagio al azar.
+groups: 	Imprime los grupos a los que pertenece un usuario.
+traceroute:	Imprime la ruta de los paquetes de red hasta el destino indicado.
+ac:     	Imprime estadísticas acerca del tiempo que han estado conectado los usuarios.
+tty:    	Imprime el nombre de la terminal en la que se esta.
+vim:    	Igual que el vi pero mejorado.
+tac:    	Igual que cat, muestra y/o concatena archivos pero al revés.
+ipcount:	Identificación de rangos de red, cálculo de IP's.
+fuser:  	Identifica procesos utilizando archivos o conexiones (sockets).
+modprobe:	Herramienta que añade/remueve módulos del kernel.
+fsck:   	Herramienta para verificar/reparar sistemas de archivos.
+fdisk:  	Herramienta para particionar discos, común a casi todas las distros.
+tar:    	Herramienta empaquetadora/compresora de archivos.
+netstat:	Herramienta de red que muestra conexiones, tablas de ruteo, estadísticas de interfaces, etc.
+cfdisk: 	Herramienta de particionamiento de discos, usada en sistemas debian principalmente.
+gpg:	    Herramienta de encriptación y de generación de certificados de seguridad (opengpg).
+iptables:	Herramienta de configuración del firewall de Linux.
+apt-get:	Herramienta de actualizacón/instalación remota de paquetes en sistemas basados en debian.
+urpmi:  	Herramienta de actualización/instalación remota de paquetes, distros basadas en rpm (usada en mandriva).
+yum:    	Herramienta de actualización/instalación remota de paquetes, distros basadas en rpm (usada en fedora, redhat y derivados).
+up2date:	Herramienta de actualización/instalación remota de paquetes, (usada en redhat, centos).
+shopt:  	Habilita o deshabilita variables opcionales del comportamiento del shell.
+mkpasswd:	Generador de contraseñas. (Paquete del programa 'expect').
+sync:   	Forza bloques en memoria a discos, actualiza el superbloque.
+pr: 	    Formatea o convierte archivos de texto para imprimirlos.
+arptables:	Firewall similar en funciones a iptables pero para control de tráfico de protocolo arp.
+export: 	Exporta el valor de una variable.
+expr:   	Evaluador de expresiones matemáticas.
+hdparm: 	Establece y muestra características sobre los discos duros.
+umask:  	Establece una máscara de permisos para cuando se crean directorios y archivos.
+egrep:  	Es igual que el comando 'grep -E', para uso de expresiones regulares.
+fgrep:  	Es igual que 'grep -F' para uso de expresiones regulares en búsquedas de archivos y listados.
+mail:   	Envía y recibe correos.
+arping: 	Envía ARP REQUEST a otros equipos en la red.
+factor: 	Encuentra los números primos de un número dado.
+userdel:	Elimina usuarios.
+groupdel:	Elimina un grupo en el sistema.
+shred:  	Elimina archivos de manera segura e irrecuperable.
+unalias:	Elimina alias de comandos, creados con el comando alias.
+service:	Ejecuta/detiene servicios en modo manual.
+nohup:  	Ejecuta un programa inmune a los hangups y sin salida a una terminal.
+env:    	Ejecuta un programa en un entorno modificado.
+nice:   	Ejecuta un programa con una prioridad de ejecucción distinta a la normal.
+chroot: 	Ejecuta comandos de root en un shell restringido a un directorio y sus subdirectorios.
+vi: 	    Editor visual de pantalla, editor de textos, que encuentras en todas las distros Linux.
+visudo: 	Editor para el archivo de configuración /etc/sudoers de sudo.
+sed:    	Editor en línea que filtra y transforma archivos.
+mcedit: 	Editor de textos de mc.
+kate:   	Editor de textos de KDE.
+gedit:  	Editor de textos de gnome.
+time:   	Devuelve el tiempo en que se ejecutó el comando o programa indicado.
+file:   	Determina el tipo de archivo.
+zenity: 	Despliega varios tipos de diálogos en X desde una terminal.
+cal:    	Despliega un calendario.
+head:   	Despliega las primera líneas de un archivo.
+uname:  	Despliega información del sistema.
+hostname:	Despliega el nombre del equipo.
+eject:  	Desmonta y expulsa un medio removible, como cdroms.
+umount: 	Desmonta sistemas de archivos.
+whatis: 	Descripción corta, en una línea de un comando o programa.
+bzcat:  	Descomprime archivos comprimidos o empaquetados mediante bzip2.
+zcat:   	Descomprime / muestra archivos comprimidos con gunzip (es idéntico a utilizar gunzip -c)
+wget:   	Descargador de archivos desde Internet, no interactivo.
+quotaoff:	Desactiva el control de cuotas de discos.
+losetup:	Define y controla dispositivos del tipo 'loop'.
+wc: 	    Cuenta palabras, líneas, caracteres de un archivo o listado.
+quotacheck:	Crea, verifica, administra sistemas de cuotas de disco
+groupadd:	Crea un nuevo grupo en el sistema.
+ln:     	Crea enlaces (accesos directos) suaves y duros de archivos y directorios.
+mkdir:  	Crea directorios.
+alias:  	Crea atajos de comandos, lista los alias actuales.
+touch:  	Crea archivos vacios, cambia fechas de acceso y/o modificación de archivos.
+cpio:   	Copia, crea, comprime y extrae archivos en distintos formatos y entre equipos o localmente.
+scp:    	Copia archivos entre equipos, parte del paquete openssh (protocolo de comunicación encriptado).
+dd:     	Convierte y copia archivos y sistemas de archivos.
+convertquota:   Convierte de los viejos formatos quota.user y quota.group a los nuevos formatos de aquota.user y aquota.group.
+dos2unix:      	Convierte archivos de formato MS-DOS a formato Unix/Linux.
+units:       	Convertidor de unidades de un sistema a otro, soporta decenas de sistemas de medición.
+chkconfig:     	Controla/consulta el modo en que los servicios se ejecutan o no al inicio del sistema.
+openssl:    	Control, administración, generación de certificados de seguridad.
+init:       	Control de inicialización de un nivel de ejecucción.
+xhost:      	Control de acceso para sesiones X.
+mkfs:       	Construye un sistema de archivos de Linux.
+mtools:     	Conjunto de utilidades para acceder a discos DOS desde Linux.
+dircolors:  	Configuración de colores para el comando ls.
+iwconfig:   	Configura una tarjeta de red inalámbrica.
+warnquota:  	Configura /etc/warnquota.conf como complemento de mensajes para cuotas de disco.
+sha1sum:    	Comprueba (y genera) archivos con firma de certificación sha1.
+md5sum:      	Comprueba (y genera) archivos con firma de certificación md5.
+gzip:          	Comprime/expande archivos.
+bzip2:      	Compresor / descompresor de archivos.
+gcc:        	Compilador de C y de C++ de GNU.
+cmp:        	Compara dos archivos byte por byte.
+cd:         	Cambiar de directorio.
+tput:       	Cambia valores o capacidades de la terminal, en base a terminfo.
+chsh:       	Cambia tu shell por defecto o shell de login.
+chmod:      	Cambia los permisos de un archivo(s) o carpetas(s).
+renice:     	Cambia la prioridad de un proceso o programa en ejecucción.
+chfn:       	Cambia la información usada en finger.
+passwd:     	Cambia la contraseña del usuario indicado.
+chown:      	Cambia el propietario de un archivo(s) o carpetas(s).
+chgrp:      	Cambia el grupo de un archivo(s) o carpetas(s).
+su:         	Cambia del usuario actual al indicado.
+chattr:     	Cambia atributos extendidos de archivos y directorios
+bc:         	Calculadora y lenguaje matemático, muy potente.
+dc:         	Calculadora interactiva.
+find:       	Búsqueda de archivos, multitud de opciones de búsqueda.
+diff:       	Busca y muestra diferencias entre archivos.
+findfs:     	Busca un sistema de archivos por UUID o LABEL (etiqueta).
+grep:       	Busca patrones de cadenas dentro de archivos.
+rm:         	Borra o elimina archivos.
+useradd:    	Añade usuarios.
+lpr:        	Añade un documento a la cola de impresión.
+help:           Ayuda sobre los comandos internos de bash.
+shutdown:   	Apaga o reinicia el equipo.
+halt:       	Apaga el equipo.
+gawk:       	Análisis y procesamiento de patrones en archivos y listados. (versión gnu)
+awk:        	Análisis y procesamiento de patrones en archivos y listados.
+iptraf:     	Analizador de tráfico de red en modo de texto.
+pwconv:     	Agrega o establece la protección shadow el archivo /etc/passwd.
+pushd:      	Agrega entradas (directorios utilizados) en la lista de directorios (pila o stack). (ver dirs y popd)
+screen:        	Administrador de terminales virtuales.
+edquota:    	Administra el control de cuotas de disco de usuario y grupos.
+htpasswd:   	Administra archivos de usuario/contraseña para autentificación básica de Apache.
+crontab:    	Administra archivos cron para los usuarios y root.
+chpasswd:   	Actualiza passwords o contraseñas en modo batch. Puede actualizar contraseñas de grupos de usuarios.
+quotaon:    	Activa el control de cuotas de discos para usuarios y grupos.
+rdesktop:      	Abre terminales gráficas ha?ia equipos Windows
